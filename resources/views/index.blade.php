@@ -186,14 +186,24 @@
     <div class="container marketing">
       <div class="row">
 
-        <div class="col-lg-3 text-center">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <i class="fa-solid fa-house"></i>
-          <h2 style="margin-top: 7%;">Ser Referência</h2>
+        <div class="col-md-3 feature_grid1 text-center"> <i class="fa fa-trophy fa-3x"></i>
+          <h4 style="margin-top: 7%;">Ser Referência</h4>
           <p>Buscamos pela referência em terceirização, com alta qualidade e confiabilidade.</p>
+        </div>
+        
+        <div class="col-md-3 feature_grid2 text-center"> <i class="fa fa-handshake fa-3x"></i>
+          <h4 style="margin-top: 7%;">Compromisso</h4>
+          <p>Compromisso com prazos e entregas, aliando agilidade à responsabilidade.</p>
+        </div>
+
+        <div class="col-md-3 feature_grid1 text-center"> <i class="fa fa-people-group fa-3x"></i>
+          <h4 style="margin-top: 7%;">Equipes</h4>
+          <p>Equipes qualificadas e dedicadas, pronta para atender às suas demandas com excelência.</p>
+        </div>
+
+        <div class="col-md-3 feature_grid2 text-center"> <i class="fa fa-circle-dollar-to-slot fa-3x"></i>
+          <h4 style="margin-top: 7%;">Preço Justo</h4>
+          <p>Preço competitivos e justos, com foco no retorno sobre inventimento do cliente.</p>
         </div>
 
 
