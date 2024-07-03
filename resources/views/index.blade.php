@@ -94,17 +94,20 @@
 
 <body>
   <header data-bs-theme="dark">
-    <nav class="navbar navbar-expand-md navbar-primary fixed-top bg-primary" style="">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Artte Serviços</a>
+        <a href="{{ route('index')}}">
+          <img src="{{ asset('img/logo-branco.png')}}" alt="logo" class="logo-img">
+        </a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0" style="margin-right: 5rem;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="{{ route('index')}}">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Quem Somos?</a>
@@ -129,7 +132,7 @@
 
   <main>
     <!-- Slider -->
-    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" style="padding-top: 6rem">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
           aria-label="Slide 1"></button>
@@ -138,17 +141,23 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="{{asset('img/slides/1.png')}}">
+          <img src="{{asset('img/slides/1.png')}}" class="bd-placeholder-img" width="100%" height="auto"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </>
           <div class="container">
             <div class="carousel-caption text-start">
-              <h1>Estratégia.</h1>
+              <h1>Example headline.</h1>
               <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
               <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="{{asset('img/slides/2.png')}}">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </svg>
           <div class="container">
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
@@ -158,9 +167,12 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="{{asset('img/slides/3.png')}}">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </svg>
           <div class="container">
-            <div class="carousel-caption text-start">
+            <div class="carousel-caption text-end">
               <h1>One more for good measure.</h1>
               <p>Some representative placeholder content for the third slide of this carousel.</p>
               <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
@@ -180,7 +192,11 @@
     <!-- Fim Slider -->
     <div class="content_white">
       <h2>Bem-Vindo a Artte Serviços</h2>
-      <p class="fontText">A Artte Serviços surgiu para ser diferente, oriunda da união de profissionais com mais de 15 anos de experiência, <br> visando oferecer soluções e melhorias em processos internos por meio de Consultoria em RH. <br> <br> Hoje, somos especialistas em Terceirização e Administração Pessoal, atuando com Headhunting, Projetos Especiais,<br> Terceirização de Limpeza, Portaria e Temporários, agindo com rigorosos padrões de qualidade. </p>
+      <p class="fontText">A Artte Serviços surgiu para ser diferente, oriunda da união de profissionais com mais de 15
+        anos de experiência, <br> visando oferecer soluções e melhorias em processos internos por meio de Consultoria em
+        RH. <br> <br> Hoje, somos especialistas em Terceirização e Administração Pessoal, atuando com Headhunting,
+        Projetos Especiais,<br> Terceirização de Limpeza, Portaria e Temporários, agindo com rigorosos padrões de
+        qualidade. </p>
     </div>
 
     <div class="container marketing">
@@ -190,7 +206,7 @@
           <h4 style="margin-top: 7%;">Ser Referência</h4>
           <p>Buscamos pela referência em terceirização, com alta qualidade e confiabilidade.</p>
         </div>
-        
+
         <div class="col-md-3 feature_grid2 text-center"> <i class="fa fa-handshake fa-3x"></i>
           <h4 style="margin-top: 7%;">Compromisso</h4>
           <p>Compromisso com prazos e entregas, aliando agilidade à responsabilidade.</p>
@@ -289,6 +305,19 @@
   </main>
   <!-- <link rel="stylesheet" href="> -->
   <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var navbar = document.querySelector('.navbar');
+
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 50) { // Ajuste o valor conforme necessário
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>

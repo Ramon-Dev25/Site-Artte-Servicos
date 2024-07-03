@@ -15,6 +15,20 @@ h1,h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
+.logo-img {
+	max-height: 8rem;
+	margin-left: 7rem;
+}
+
+
+.color-text {
+	color: #4c0f7e;
+  }
+
+.color-text:hover {
+	color: #c70039;
+}
+
 .image {
 	position:absolute;
 	top: -5%; 
@@ -60,6 +74,18 @@ h1,h2, h3, h4, h5, h6 {
     display: none;
 }
 
+
+.navbar {
+    transition: all 3s ease;
+}
+
+.navbar.scrolled {
+    height: 50px; /* Ajuste o valor conforme necessário */
+}
+
+.navbar.scrolled .logo-img {
+    display: none;
+}
 
 
 /* Botão Leia Mais */
