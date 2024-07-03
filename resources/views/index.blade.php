@@ -105,7 +105,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ms-auto mb-2 mb-md-0" style="margin-right: 5rem;">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0 d-flex" style="margin-right: 5rem;">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="{{ route('index')}}">Home</a>
             </li>
@@ -307,13 +307,25 @@
   <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js')}}"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var navbar = document.querySelector('.navbar');
+      const navbar = document.querySelector('.navbar');
 
       window.addEventListener('scroll', function () {
-        if (window.scrollY > 50) { // Ajuste o valor conforme necessário
+        if (window.scrollY > 100) { // Ajuste o valor conforme necessário
           navbar.classList.add('scrolled');
         } else {
           navbar.classList.remove('scrolled');
+        }
+      });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const navbarNav = document.querySelector('.navbar-nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 100) { // Ajuste o valor conforme necessário
+          navbarNav.classList.add('scrolled');
+        } else {
+          navbarNav.classList.remove('scrolled');
         }
       });
     });

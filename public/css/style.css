@@ -74,19 +74,32 @@ h1,h2, h3, h4, h5, h6 {
     display: none;
 }
 
-
 .navbar {
-    transition: all 3s ease;
+	max-height: 10rem;
+	transition: max-height 0.7s ease;
 }
 
-.navbar.scrolled {
-    height: 50px; /* Ajuste o valor conforme necessário */
+.navbar.scrolled { /* Ajuste o valor conforme necessário */
+	margin-top: -0.3em; /* Remover margem ao rolar */
+	transition: margin-top 0.7s ease;
+
 }
 
 .navbar.scrolled .logo-img {
-    display: none;
+    margin-top: -10rem;
+	transition: margin-top 0.7s ease;
+	
 }
 
+
+.navbar-nav {
+	margin-top: 5rem; /* Ajuste o valor conforme necessário */
+  }
+  
+.navbar-nav.scrolled {
+	margin-top: 0; /* Remover margem ao rolar */
+	transition: margin-top 0.7s ease;
+}
 
 /* Botão Leia Mais */
 
