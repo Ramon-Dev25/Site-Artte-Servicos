@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="{{ asset('css/style.css')}}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
   <link href="{{ asset('css/carousel.css')}}" rel="stylesheet">
+  <link href="{{ asset('css/features.css')}}" rel="stylesheet">
   <style>
     .bd-placeholder-img {
       font-size: 1.125rem;
@@ -141,9 +142,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="{{asset('img/slides/1.png')}}" class="bd-placeholder-img" width="100%" height="auto"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          <img src="{{asset('img/slides/1.png')}}" class="img-slider">
           </>
           <div class="container">
             <div class="carousel-caption text-start">
@@ -226,10 +225,122 @@
 
       </div><!-- /.row -->
 
+      <hr class="featurette-divider">
 
-      <!-- START THE FEATURETTES -->
+      <div class="container" id="icon-grid">
+
+        <div class="div-service">
+          <a href="#" class="service-button">
+            <h2>Nossos Serviços</h2>
+          </a>
+        </div>
+        <div class="bg-blue-service"></div>
+        
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+              <use xlink:href="#calendar3" />
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+              <use xlink:href="#home" />
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+              <use xlink:href="#speedometer2" />
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+              <use xlink:href="#toggles2" />
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <hr class="featurette-divider">
+
+      <div class="container px-4" id="custom-cards">
+        <div class="div-blog">
+          <a href="#" class="blog-button">
+            <h2>Blog</h2>
+          </a>
+        </div>
+        <div class="bg-blue"></div>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 ">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-1.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-1 mt-4 mb-4 display-6 lh-1 fw-bold">Notícia 1</h3>
+                <h6 class="pt-3 mt-2 mb-4 display-9 lh-3">uch longer title that wraps to multiple lines asdnf afasertsaf
+                  vcvsdfad adfa dsgsrt srear tdfadsfarbb asde frg b aff sd</h6>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center">
+                    <a href="#" class="abc">Leia Mais!</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-1.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-1 mt-4 mb-4 display-6 lh-1 fw-bold">Notícia 2</h3>
+                <h6 class="pt-3 mt-2 mb-4 display-9 lh-3">uch longer title that wraps to multiple lines asdnf afasertsaf
+                  vcvsdfad adfa dsgsrt srear tdfadsfarbb asde frg b aff sd</h6>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center">
+                    <a href="#" class="abc">Leia Mais!</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-1.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-1 mt-4 mb-4 display-6 lh-1 fw-bold">Notícia 3</h3>
+                <h6 class="pt-3 mt-2 mb-4 display-9 lh-3">uch longer title that wraps to multiple lines asdnf afasertsaf
+                  vcvsdfad adfa dsgsrt srear tdfadsfarbb asde frg b aff sd</h6>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center">
+                    <a href="#" class="abc">Leia Mais!</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- START THE FEATURETTES -->
+      <!-- <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7">
@@ -290,7 +401,7 @@
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr class="featurette-divider"> -->
 
       <!-- /END THE FEATURETTES -->
 

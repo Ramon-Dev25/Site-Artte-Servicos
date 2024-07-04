@@ -20,6 +20,74 @@ h1,h2, h3, h4, h5, h6 {
 	margin-left: 7rem;
 }
 
+.img-slider {
+	height: 32rem;
+}
+
+
+
+.div-blog {
+	max-width: 8%;
+}
+
+.blog-button {
+	margin-left: 2rem;
+	text-decoration: none;
+	color: #ffffff;
+	max-width: 10%;
+
+
+}
+
+.blog-button:hover {
+	color: #80bfe4;
+	transition: color 0.7s ease;
+	
+
+}
+
+.div-service {
+	max-width: 50%;
+}
+
+.service-button {
+	margin-left: 2rem;
+	text-decoration: none;
+	color: #ffffff;
+	max-width: 7%;
+
+
+}
+
+.service-button:hover {
+	color: #80bfe4;
+	transition: color 0.7s ease;
+	
+
+}
+
+.bg-blue-service {
+	position: relative;
+	background-color: #18618f;
+	width: 31.5rem;
+	height: 3rem;
+	border-radius: 0 2rem 2rem 0;
+	margin-left: -12rem;
+	margin-top: -3.7rem;
+	z-index: -1;
+}
+
+.bg-blue {
+	position: relative;
+	background-color: #18618f;
+	width: 20rem;
+	height: 3rem;
+	border-radius: 0 2rem 2rem 0;
+	margin-left: -12rem;
+	margin-top: -3.7rem;
+	z-index: -1;
+}
+
 
 .color-text {
 	color: #4c0f7e;
