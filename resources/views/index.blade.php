@@ -252,7 +252,7 @@
               </div>
             </div>
             <div class="col-sm-4 info-blocks">
-              <i class="icon-info-blocks fa fa-id-card-o"></i>
+              <i class="icon-info-blocks fa fa-id-card"></i>
               <div class="info-blocks-in">
                 <h3>Controlador de Acesso</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
@@ -292,139 +292,113 @@
       </div>
 
       <hr class="featurette-divider">
+      <div class="container">
+        <div class="content_white">
+          <h2> Principais Notícias </h2>
+        </div>
 
-      <div class="content_white">
-        <h2> Principais Notícias </h2>
-      </div>
-
-      <div class="container px-4" id="custom-cards">
-        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 ">
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('unsplash-photo-1.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-1 mt-4 mb-4 display-6 lh-1 fw-bold">Notícia 1</h3>
-                <h6 class="pt-3 mt-2 mb-4 display-9 lh-3">uch longer title that wraps to multiple lines asdnf afasertsaf
-                  vcvsdfad adfa dsgsrt srear tdfadsfarbb asde frg b aff sd</h6>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="d-flex align-items-center">
-                    <a href="#" class="abc">Leia Mais!</a>
-                  </li>
-                </ul>
-              </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <h5 class="news">Título da Notícia 1</h5>
+            <div class="card">
+              <a href="#" class="news_button">
+                <img src="{{asset('img/news/1.jpg')}}" alt="Notícia 1">
+                <div class="card__content">
+                  <p class="card__title">Card Title</p>
+                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation
+                    ullamco.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <h5 class="news">Título da Notícia 2</h5>
+            <div class="card">
+              <a href="#" class="news_button">
+                <img src="{{asset('img/news/2.jpg')}}" alt="Notícia 1">
+                <div class="card__content">
+                  <p class="card__title">Card Title</p>
+                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation
+                    ullamco.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <h5 class="news">Título da Notícia 3</h5>
+            <div class="card">
+              <a href="#" class="news_button">
+                <img src="{{asset('img/news/3.jpg')}}" alt="Notícia 1">
+                <div class="card__content">
+                  <p class="card__title">Card Title</p>
+                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation
+                    ullamco.</p>
+                </div>
+              </a>
             </div>
           </div>
 
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('unsplash-photo-1.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-1 mt-4 mb-4 display-6 lh-1 fw-bold">Notícia 2</h3>
-                <h6 class="pt-3 mt-2 mb-4 display-9 lh-3">uch longer title that wraps to multiple lines asdnf afasertsaf
-                  vcvsdfad adfa dsgsrt srear tdfadsfarbb asde frg b aff sd</h6>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="d-flex align-items-center">
-                    <a href="#" class="abc">Leia Mais!</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
 
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('unsplash-photo-1.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-1 mt-4 mb-4 display-6 lh-1 fw-bold">Notícia 3</h3>
-                <h6 class="pt-3 mt-2 mb-4 display-9 lh-3">uch longer title that wraps to multiple lines asdnf afasertsaf
-                  vcvsdfad adfa dsgsrt srear tdfadsfarbb asde frg b aff sd</h6>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="d-flex align-items-center">
-                    <a href="#" class="abc">Leia Mais!</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
-
-
-      <!-- START THE FEATURETTES -->
-      <!-- <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
-              class="text-body-secondary">It’ll blow your mind.</span></h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
-            here.</p>
-        </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-              fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-          </svg>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See
-              for yourself.</span></h2>
-          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
-            layout would work with some actual real-world content in place.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-              fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-          </svg>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
-              class="text-body-secondary">Checkmate.</span></h2>
-          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
-            intended to be actually read, simply here to give you a better view of what this would look like with some
-            actual content. Your content.</p>
-        </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-              fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-          </svg>
-        </div>
-      </div>
-
-      <hr class="featurette-divider"> -->
-
-      <!-- /END THE FEATURETTES -->
+      <!-- REDES SOCIAIS -->
+      <ul class="wrapper" style="margin-top: 5rem;">
+        <a class="redeSocial" href="#" data-placement="top">
+          <li class="icon whatsapp">
+            <span class="tooltip">WhatsApp</span>
+            <i class="fa-brands fa-whatsapp" style="font-size: 1.6em"></i>
+          </li>
+          </li>
+        </a>
+        <a class="redeSocial" href="#" data-placement="top">
+          <li class="icon instagram">
+            <span class="tooltip">Instagram</span>
+            <i class="fa-brands fa-instagram" style="font-size: 1.5em"></i>
+          </li>
+        </a>
+        <a class="redeSocial" href="#" data-placement="top">
+          <li class="icon facebook">
+            <span class="tooltip">Facebook</span>
+            <i class="fa-brands fa-facebook-f" style="font-size: 1.2em"></i>
+          </li>
+          </li>
+        </a>
+        <a class="redeSocial" href="#" data-placement="top">
+          <li class="icon linkedin">
+            <span class="tooltip">Linkedin</span>
+            <i class="fa-brands fa-linkedin-in" style="font-size: 1.2em"></i>
+          </li>
+        </a>
+      </ul>
+      <!-- FIM REDES SOCIAIS -->
 
     </div><!-- /.container -->
 
 
     <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>&copy; 2017–2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
+    <div class="container-footer">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+
+        <h6 class="col-md-4 mb-0 text-white">&copy; Artte Serviços</h6>
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><span class="nav-link px-1 text-white">Contato: <strong>(11) 4138-7660</strong></span></li>
+        </ul>
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><span class="nav-link px-1 text-white">E-mail: <strong>contato@artteservicos.com.br</strong></span></li>
+        </ul>
+
+        <p class="col-md-4 mb-0 text-white">Criado por Ramon Fernandes</p>
+      </footer>
+    </div>
+
+
   </main>
   <!-- <link rel="stylesheet" href="> -->
   <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js')}}"></script>
