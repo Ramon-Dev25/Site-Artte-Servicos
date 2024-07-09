@@ -564,7 +564,16 @@ footer {
 }
 
 .container-footer {
-	padding: 20px;
-	height: 10rem;
+	padding: 0 20px 0 20px;
+	position: relative;
+	height: 8rem;
 	background-color: #0d6efd;
+}
+
+.footer-bg-end {
+	position: relative;
+	display: flex;
+	margin-bottom: -50px;
+	height: 1rem;
+	background-color: #0c2e5c;
 }

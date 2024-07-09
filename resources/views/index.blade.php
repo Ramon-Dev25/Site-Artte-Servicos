@@ -111,7 +111,7 @@
               <a class="nav-link active" aria-current="page" href="{{ route('index')}}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Quem Somos?</a>
+              <a class="nav-link" href="{{ route('about')}}">Quem Somos?</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Nossos Serviços</a>
@@ -388,15 +388,18 @@
 
         <h6 class="col-md-4 mb-0 text-white">&copy; Artte Serviços</h6>
         <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><span class="nav-link px-1 text-white">Contato: <strong>(11) 4138-7660</strong></span></li>
+          <li class="nav-item"><span class="nav-link px-1 text-white">Contato: <strong>(11) 4138-7660</strong></span>
+          </li>
         </ul>
         <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><span class="nav-link px-1 text-white">E-mail: <strong>contato@artteservicos.com.br</strong></span></li>
+          <li class="nav-item"><span class="nav-link px-1 text-white">E-mail:
+              <strong>contato@artteservicos.com.br</strong></span></li>
         </ul>
 
         <p class="col-md-4 mb-0 text-white">Criado por Ramon Fernandes</p>
       </footer>
     </div>
+    <div class="footer-bg-end"></div>
 
 
   </main>
