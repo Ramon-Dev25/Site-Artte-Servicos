@@ -301,7 +301,7 @@
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 ">
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url{{asset('img/slides/1.png')}};">
+              style="background-image: url('unsplash-photo-1.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                 <h3 class="pt-1 mt-4 mb-4 display-6 lh-1 fw-bold">Notícia 1</h3>
                 <h6 class="pt-3 mt-2 mb-4 display-9 lh-3">uch longer title that wraps to multiple lines asdnf afasertsaf
