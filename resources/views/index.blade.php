@@ -227,69 +227,81 @@
 
       <hr class="featurette-divider">
 
-      <div class="container" id="icon-grid">
-
-        <div class="div-service">
-          <a href="#" class="service-button">
-            <h2>Nossos Serviços</h2>
-          </a>
+      <div class="container">
+        <div class="content_white">
+          <h2> Nossos Serviços </h2>
         </div>
-        <div class="bg-blue-service"></div>
-        
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-              <use xlink:href="#calendar3" />
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+
+        <div class="row">
+
+          <div class="row">
+            <div class="col-sm-4 info-blocks">
+              <i class="icon-info-blocks fa fa-sign-language"></i>
+              <div class="info-blocks-in">
+                <h3>Auxiliar de Limpeza</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                  incidunt</p>
+              </div>
+            </div>
+            <div class="col-sm-4 info-blocks">
+              <i class="icon-info-blocks fa fa-cubes"></i>
+              <div class="info-blocks-in">
+                <h3>Auxiliar de Logística</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                  incidunt</p>
+              </div>
+            </div>
+            <div class="col-sm-4 info-blocks">
+              <i class="icon-info-blocks fa fa-id-card-o"></i>
+              <div class="info-blocks-in">
+                <h3>Controlador de Acesso</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                  incidunt</p>
+              </div>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-              <use xlink:href="#home" />
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+
+          <div class="row">
+            <div class="col-sm-4 info-blocks ">
+              <i class="icon-info-blocks fa fa-leaf"></i>
+              <div class="info-blocks-in">
+                <h3>Jardinagem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                  incidunt</p>
+              </div>
+            </div>
+            <div class="col-sm-4 info-blocks">
+              <i class="icon-info-blocks fa fa-home"></i>
+              <div class="info-blocks-in">
+                <h3>Portaria</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                  incidunt</p>
+              </div>
+            </div>
+            <div class="col-sm-4 info-blocks">
+              <i class="icon-info-blocks fa fa-user-circle"></i>
+              <div class="info-blocks-in">
+                <h3>Recepção</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                  incidunt</p>
+              </div>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-              <use xlink:href="#speedometer2" />
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-              <use xlink:href="#toggles2" />
-            </svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
+
         </div>
       </div>
 
       <hr class="featurette-divider">
 
-      <div class="container px-4" id="custom-cards">
-        <div class="div-blog">
-          <a href="#" class="blog-button">
-            <h2>Blog</h2>
-          </a>
-        </div>
-        <div class="bg-blue"></div>
+      <div class="content_white">
+        <h2> Principais Notícias </h2>
+      </div>
 
+      <div class="container px-4" id="custom-cards">
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 ">
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('unsplash-photo-1.jpg');">
+              style="background-image: url{{asset('img/slides/1.png')}};">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                 <h3 class="pt-1 mt-4 mb-4 display-6 lh-1 fw-bold">Notícia 1</h3>
                 <h6 class="pt-3 mt-2 mb-4 display-9 lh-3">uch longer title that wraps to multiple lines asdnf afasertsaf
