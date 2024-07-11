@@ -20,6 +20,13 @@ h6 {
 	margin-bottom: 20px;
 }
 
+@media (min-width: 992px) {
+	.rounded-lg-3 {
+		border-radius: .3rem;
+	}
+}
+
+
 .logo-img {
 	max-height: 8rem;
 	margin-left: 7rem;
@@ -576,4 +583,59 @@ footer {
 	margin-bottom: -50px;
 	height: 1rem;
 	background-color: #0c2e5c;
+}
+
+.img-logo-about {
+	width: 35rem;
+}
+
+
+.inner-headline {
+	background: #1245b1;
+	margin-top: 5rem;
+	height: 5rem;
+}
+
+
+.pageTitle {
+	color: #fff;
+	margin-top: 2rem;
+	display: inline-block;
+}
+
+.panel {
+	margin-bottom: 18px;
+	background-color: #F4F4F4;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.card2 {
+	position: relative;
+	margin-top: 2.5rem;
+	width: 40rem;
+	height: 28rem;
+	border-radius: 14px;
+	z-index: 1;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 1rem 1rem 3rem #bebebe;
+	;
+}
+
+.bg {
+	position: relative;
+	padding: 5%;
+	width: 38rem;
+	height: 26rem;
+	z-index: 2;
+	background: rgba(255, 255, 255, .95);
+	backdrop-filter: blur(24px);
+	border-radius: 10px;
+	overflow: hidden;
 }

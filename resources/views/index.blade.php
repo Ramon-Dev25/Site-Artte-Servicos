@@ -114,16 +114,16 @@
               <a class="nav-link" href="{{ route('about')}}">Quem Somos?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nossos Serviços</a>
+              <a class="nav-link" href="{{ route('service')}}">Nossos Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="{{ route('blog')}}">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Perguntas</a>
+              <a class="nav-link" href="{{ route('questions')}}">Perguntas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Orçamento</a>
+              <a class="nav-link" href="{{ route('budgets')}}">Orçamento</a>
             </li>
           </ul>
         </div>
