@@ -659,19 +659,24 @@ footer {
 
 }
 
-.text-mv {
-	position: absolute;
+.mv-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
 }
 
-.missao img {
-	position: relative;
-	height: 100%;
-	width: 50rem;
+.mv-container .mv-box {
+	flex:  1 1 30rem;
+	background-color: #fff;
+	padding: 2rem 2rem 2rem;
+	border-radius: 2rem;
+	text-align: center;
+	border: .2rem solid #fff;
 }
 
-
-
-.visao img {
-	height: 100%;
-	width: 50rem;
+.mv-container .mv-box img {
+	max-width: 100%;
+    max-height: 100%;
 }

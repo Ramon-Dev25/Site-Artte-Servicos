@@ -176,27 +176,22 @@
         </div>
 
         <section class="section-gray">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="missao">
-                        <img src="{{asset('img/missao.jpg')}}" alt="Missão">
-                        <h3>Missão</h3>
-                        <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                            worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
-                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                    </div>
+            <div class="mv-container">
+                <div class="mv-box">
+                    <img src="{{asset('img/missao.jpg')}}" alt="Missão">
+                    <h3>Missão</h3>
+                    <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                        worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
+                        responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+
                 </div>
-                <div class="col-lg-6">
-                    <div class="visao">
-                        <img src="{{asset('img/visao.jpg')}}" alt="Visão">
-                        <div class="text-mv">
-                            <h3>Visão</h3>
-                            <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                                worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
-                                responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
-                            </p>
-                        </div>
-                    </div>
+                <div class="mv-box">
+                    <!-- <img src="{{asset('img/visao.jpg')}}" alt="Visão"> -->
+                    <h3>Visão</h3>
+                    <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                        worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
+                        responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+                    </p>
                 </div>
             </div>
         </section>
