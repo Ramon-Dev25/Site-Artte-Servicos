@@ -143,42 +143,64 @@
                 </div>
             </div>
         </div>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-12">
-                        <img src="{{asset('img/logo.png')}}" alt="Logo Artte Serviços" class="img-logo-about" />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <img src="{{asset('img/logo.png')}}" alt="Logo Artte Serviços" class="img-logo-about" />
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="card2">
+                        <div class="bg">
+                            <h2>História da Artte Serviços</h2>
+                            <p>
+                                A Artte Serviços surgiu para ser diferente, oriunda da união de profissinais com
+                                mais de
+                                15 anos de experiência em acabamentos gráficos, visando atender demandas
+                                sazonais de
+                                manuseio; aplicando tecnologia e treinamento.
+                            </p>
+                            <p>
+                                Desenvolvemos metodologias de produção personalizadas para cada cliente, e
+                                seguimos
+                                padrões rigorosos de qualidade, onde temos profissinais capacitados para atuar
+                                nos mais
+                                diversos tipos de trabalhos de serviços de manuseios e também operações de carga
+                                e
+                                descarga.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-12">
-                        <div class="card2">
-                            <div class="bg">
-                                <h1>História da Artte Serviços</h1>
-                                <p>
-                                    A Artte Serviços surgiu para ser diferente, oriunda da união de profissinais com
-                                    mais de
-                                    15 anos de experiência em acabamentos gráficos, visando atender demandas
-                                    sazonais de
-                                    manuseio; aplicando tecnologia e treinamento.
-                                </p>
-                                <p>
-                                    Desenvolvemos metodologias de produção personalizadas para cada cliente, e
-                                    seguimos
-                                    padrões rigorosos de qualidade, onde temos profissinais capacitados para atuar
-                                    nos mais
-                                    diversos tipos de trabalhos de serviços de manuseios e também operações de carga
-                                    e
-                                    descarga.
-                                </p>
-                            </div>
+                </div>
+            </div>
+
+        </div>
+
+        <section class="section-gray">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="missao">
+                        <img src="{{asset('img/missao.jpg')}}" alt="Missão">
+                        <h3>Missão</h3>
+                        <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                            worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
+                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="visao">
+                        <img src="{{asset('img/visao.jpg')}}" alt="Visão">
+                        <div class="text-mv">
+                            <h3>Visão</h3>
+                            <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                                worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
+                                responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-
-
-        <div class="b-example-divider" style="height: 1rem;"></div>
         <!-- MISSÃO, VISÃO E VALORES -->
 
         <div class="container col-xxl-8 px-4 py-5">
@@ -196,8 +218,6 @@
             </div>
         </div>
 
-        <div class="b-example-divider" style="height: 1rem;"></div>
-
         <div class="container col-xxl-8 px-4 py-5" style="margin-top: 3rem">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-lg-6">
@@ -212,8 +232,6 @@
                 </div>
             </div>
         </div>
-
-        <div class="b-example-divider" style="height: 1rem;"></div>
 
         <div class="content_white">
             <h2>Bem-Vindo a Artte Serviços</h2>

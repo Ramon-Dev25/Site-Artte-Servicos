@@ -198,100 +198,100 @@
         qualidade. </p>
     </div>
 
-    <div class="container marketing">
-      <div class="row">
-
-        <div class="col-md-3 feature_grid1 text-center"> <i class="fa fa-trophy fa-3x"></i>
-          <h4 style="margin-top: 7%;">Ser Referência</h4>
-          <p>Buscamos pela referência em terceirização, com alta qualidade e confiabilidade.</p>
-        </div>
-
-        <div class="col-md-3 feature_grid2 text-center"> <i class="fa fa-handshake fa-3x"></i>
-          <h4 style="margin-top: 7%;">Compromisso</h4>
-          <p>Compromisso com prazos e entregas, aliando agilidade à responsabilidade.</p>
-        </div>
-
-        <div class="col-md-3 feature_grid1 text-center"> <i class="fa fa-people-group fa-3x"></i>
-          <h4 style="margin-top: 7%;">Equipes</h4>
-          <p>Equipes qualificadas e dedicadas, pronta para atender às suas demandas com excelência.</p>
-        </div>
-
-        <div class="col-md-3 feature_grid2 text-center"> <i class="fa fa-circle-dollar-to-slot fa-3x"></i>
-          <h4 style="margin-top: 7%;">Preço Justo</h4>
-          <p>Preço competitivos e justos, com foco no retorno sobre inventimento do cliente.</p>
-        </div>
-
-
-
-      </div><!-- /.row -->
-
-      <hr class="featurette-divider">
-
-      <div class="container">
-        <div class="content_white">
-          <h2> Nossos Serviços </h2>
-        </div>
-
+    <section class="section-main">
+      <section class="section-white">
         <div class="row">
+          <div class="col-md-3 feature_grid1 text-center"> <i class="fa fa-trophy fa-3x"></i>
+            <h4 style="margin-top: 7%;">Ser Referência</h4>
+            <p>Buscamos pela referência em terceirização, com alta qualidade e confiabilidade.</p>
+          </div>
 
-          <div class="row">
-            <div class="col-sm-4 info-blocks">
-              <i class="icon-info-blocks fa fa-sign-language"></i>
-              <div class="info-blocks-in">
-                <h3>Auxiliar de Limpeza</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
-                  incidunt</p>
-              </div>
-            </div>
-            <div class="col-sm-4 info-blocks">
-              <i class="icon-info-blocks fa fa-cubes"></i>
-              <div class="info-blocks-in">
-                <h3>Auxiliar de Logística</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
-                  incidunt</p>
-              </div>
-            </div>
-            <div class="col-sm-4 info-blocks">
-              <i class="icon-info-blocks fa fa-id-card"></i>
-              <div class="info-blocks-in">
-                <h3>Controlador de Acesso</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
-                  incidunt</p>
-              </div>
-            </div>
+          <div class="col-md-3 feature_grid2 text-center"> <i class="fa fa-handshake fa-3x"></i>
+            <h4 style="margin-top: 7%;">Compromisso</h4>
+            <p>Compromisso com prazos e entregas, aliando agilidade à responsabilidade.</p>
+          </div>
+
+          <div class="col-md-3 feature_grid1 text-center"> <i class="fa fa-people-group fa-3x"></i>
+            <h4 style="margin-top: 7%;">Equipes</h4>
+            <p>Equipes qualificadas e dedicadas, pronta para atender às suas demandas com excelência.</p>
+          </div>
+
+          <div class="col-md-3 feature_grid2 text-center"> <i class="fa fa-circle-dollar-to-slot fa-3x"></i>
+            <h4 style="margin-top: 7%;">Preço Justo</h4>
+            <p>Preço competitivos e justos, com foco no retorno sobre inventimento do cliente.</p>
+          </div>
+
+        </div><!-- /.row -->
+      </section>
+
+
+      <section class="section-gray">
+        <div class="container">
+          <div class="content_white">
+            <h2> Nossos Serviços </h2>
           </div>
 
           <div class="row">
-            <div class="col-sm-4 info-blocks ">
-              <i class="icon-info-blocks fa fa-leaf"></i>
-              <div class="info-blocks-in">
-                <h3>Jardinagem</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
-                  incidunt</p>
-              </div>
-            </div>
-            <div class="col-sm-4 info-blocks">
-              <i class="icon-info-blocks fa fa-home"></i>
-              <div class="info-blocks-in">
-                <h3>Portaria</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
-                  incidunt</p>
-              </div>
-            </div>
-            <div class="col-sm-4 info-blocks">
-              <i class="icon-info-blocks fa fa-user-circle"></i>
-              <div class="info-blocks-in">
-                <h3>Recepção</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
-                  incidunt</p>
-              </div>
-            </div>
-          </div>
 
+            <div class="row">
+              <div class="col-sm-4 info-blocks">
+                <i class="icon-info-blocks fa fa-sign-language"></i>
+                <div class="info-blocks-in">
+                  <h3>Auxiliar de Limpeza</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                    incidunt</p>
+                </div>
+              </div>
+              <div class="col-sm-4 info-blocks">
+                <i class="icon-info-blocks fa fa-cubes"></i>
+                <div class="info-blocks-in">
+                  <h3>Auxiliar de Logística</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                    incidunt</p>
+                </div>
+              </div>
+              <div class="col-sm-4 info-blocks">
+                <i class="icon-info-blocks fa fa-id-card"></i>
+                <div class="info-blocks-in">
+                  <h3>Controlador de Acesso</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                    incidunt</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-4 info-blocks ">
+                <i class="icon-info-blocks fa fa-leaf"></i>
+                <div class="info-blocks-in">
+                  <h3>Jardinagem</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                    incidunt</p>
+                </div>
+              </div>
+              <div class="col-sm-4 info-blocks">
+                <i class="icon-info-blocks fa fa-home"></i>
+                <div class="info-blocks-in">
+                  <h3>Portaria</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                    incidunt</p>
+                </div>
+              </div>
+              <div class="col-sm-4 info-blocks">
+                <i class="icon-info-blocks fa fa-user-circle"></i>
+                <div class="info-blocks-in">
+                  <h3>Recepção</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                    incidunt</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
+      </section>
 
-      <hr class="featurette-divider">
+      <section class="section-white"></section>
       <div class="container">
         <div class="content_white">
           <h2> Principais Notícias </h2>
@@ -379,7 +379,7 @@
       </ul>
       <!-- FIM REDES SOCIAIS -->
 
-    </div><!-- /.container -->
+    </section><!-- /.container -->
 
 
     <!-- FOOTER -->
