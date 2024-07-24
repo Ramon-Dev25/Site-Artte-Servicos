@@ -134,7 +134,7 @@
 
 
     <main>
-        <div class="inner-headline">
+        <!-- <div class="inner-headline">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -142,13 +142,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" style="margin-top: 4%;">
                     <img src="{{asset('img/logo.png')}}" alt="Logo Artte Serviços" class="img-logo-about" />
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" style="margin-top: 6%;">
                     <div class="card2">
                         <div class="bg">
                             <h2>História da Artte Serviços</h2>
@@ -175,45 +175,25 @@
 
         </div>
 
-        <section class="section-gray">
-            <div class="mv-container">
-                <div class="mv-box">
-                    <img src="{{asset('img/missao.jpg')}}" alt="Missão">
-                    <h3>Missão</h3>
-                    <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                        worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
-                        responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-
-                </div>
-                <div class="mv-box">
-                    <!-- <img src="{{asset('img/visao.jpg')}}" alt="Visão"> -->
-                    <h3>Visão</h3>
-                    <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                        worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
-                        responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
-                    </p>
+        <!-- MISSÃO, VISÃO E VALORES -->
+        <section class="section-blue">
+            <div class="container col-xxl-8 px-4 py-2">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="{{asset('img/missao.jpg')}}" class="d-block mx-lg-auto img-fluid" alt="Missão"
+                        width="100%" height="100%" loading="lazy" id="missao-img">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Missão</h2>
+                        <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                            worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
+                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- MISSÃO, VISÃO E VALORES -->
-
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="{{asset('img/missao.jpg')}}" class="d-block mx-lg-auto img-fluid" alt="Missão"
-                        width="100%" height="100%" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h2>Missão</h2>
-                    <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                        worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
-                        responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container col-xxl-8 px-4 py-5" style="margin-top: 3rem">
+        <div class="container col-xxl-8 px-4 py-2" style="margin-top: 3rem">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-lg-6">
                     <h2>Visão</h2>
@@ -223,218 +203,17 @@
                 </div>
                 <div class="col-10 col-sm-8 col-lg-6">
                     <img src="{{asset('img/visao.jpg')}}" class="d-block mx-lg-auto img-fluid" alt="Missão" width="100%"
-                        height="100%" loading="lazy">
+                        height="100%" loading="lazy" id="visao-img">
                 </div>
             </div>
         </div>
 
-        <div class="content_white">
-            <h2>Bem-Vindo a Artte Serviços</h2>
-            <p class="fontText">A Artte Serviços surgiu para ser diferente, oriunda da união de profissionais com mais
-                de 15
-                anos de experiência, <br> visando oferecer soluções e melhorias em processos internos por meio de
-                Consultoria em
-                RH. <br> <br> Hoje, somos especialistas em Terceirização e Administração Pessoal, atuando com
-                Headhunting,
-                Projetos Especiais,<br> Terceirização de Limpeza, Portaria e Temporários, agindo com rigorosos padrões
-                de
-                qualidade. </p>
-        </div>
-
-        <div class="container marketing">
-            <div class="row">
-
-                <div class="col-md-3 feature_grid1 text-center"> <i class="fa fa-trophy fa-3x"></i>
-                    <h4 style="margin-top: 7%;">Ser Referência</h4>
-                    <p>Buscamos pela referência em terceirização, com alta qualidade e confiabilidade.</p>
-                </div>
-
-                <div class="col-md-3 feature_grid2 text-center"> <i class="fa fa-handshake fa-3x"></i>
-                    <h4 style="margin-top: 7%;">Compromisso</h4>
-                    <p>Compromisso com prazos e entregas, aliando agilidade à responsabilidade.</p>
-                </div>
-
-                <div class="col-md-3 feature_grid1 text-center"> <i class="fa fa-people-group fa-3x"></i>
-                    <h4 style="margin-top: 7%;">Equipes</h4>
-                    <p>Equipes qualificadas e dedicadas, pronta para atender às suas demandas com excelência.</p>
-                </div>
-
-                <div class="col-md-3 feature_grid2 text-center"> <i class="fa fa-circle-dollar-to-slot fa-3x"></i>
-                    <h4 style="margin-top: 7%;">Preço Justo</h4>
-                    <p>Preço competitivos e justos, com foco no retorno sobre inventimento do cliente.</p>
-                </div>
-
-
-
-            </div><!-- /.row -->
-
-            <hr class="featurette-divider">
-
-            <div class="container">
-                <div class="content_white">
-                    <h2> Nossos Serviços </h2>
-                </div>
-
-                <div class="row">
-
-                    <div class="row">
-                        <div class="col-sm-4 info-blocks">
-                            <i class="icon-info-blocks fa fa-sign-language"></i>
-                            <div class="info-blocks-in">
-                                <h3>Auxiliar de Limpeza</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro
-                                    consequatur aliquam,
-                                    incidunt</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 info-blocks">
-                            <i class="icon-info-blocks fa fa-cubes"></i>
-                            <div class="info-blocks-in">
-                                <h3>Auxiliar de Logística</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro
-                                    consequatur aliquam,
-                                    incidunt</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 info-blocks">
-                            <i class="icon-info-blocks fa fa-id-card"></i>
-                            <div class="info-blocks-in">
-                                <h3>Controlador de Acesso</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro
-                                    consequatur aliquam,
-                                    incidunt</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-4 info-blocks ">
-                            <i class="icon-info-blocks fa fa-leaf"></i>
-                            <div class="info-blocks-in">
-                                <h3>Jardinagem</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro
-                                    consequatur aliquam,
-                                    incidunt</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 info-blocks">
-                            <i class="icon-info-blocks fa fa-home"></i>
-                            <div class="info-blocks-in">
-                                <h3>Portaria</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro
-                                    consequatur aliquam,
-                                    incidunt</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 info-blocks">
-                            <i class="icon-info-blocks fa fa-user-circle"></i>
-                            <div class="info-blocks-in">
-                                <h3>Recepção</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro
-                                    consequatur aliquam,
-                                    incidunt</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+        <section class="section-value">
+            <div class="content_white">
+                <h2>Valores</h2>
+                <p class="fontText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
             </div>
-
-            <hr class="featurette-divider">
-            <div class="container">
-                <div class="content_white">
-                    <h2> Principais Notícias </h2>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-4">
-                        <h5 class="news">Título da Notícia 1</h5>
-                        <div class="card">
-                            <a href="#" class="news_button">
-                                <img src="{{asset('img/news/1.jpg')}}" alt="Notícia 1">
-                                <div class="card__content">
-                                    <p class="card__title">Card Title</p>
-                                    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud
-                                        exercitation
-                                        ullamco.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <h5 class="news">Título da Notícia 2</h5>
-                        <div class="card">
-                            <a href="#" class="news_button">
-                                <img src="{{asset('img/news/2.jpg')}}" alt="Notícia 1">
-                                <div class="card__content">
-                                    <p class="card__title">Card Title</p>
-                                    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud
-                                        exercitation
-                                        ullamco.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <h5 class="news">Título da Notícia 3</h5>
-                        <div class="card">
-                            <a href="#" class="news_button">
-                                <img src="{{asset('img/news/3.jpg')}}" alt="Notícia 1">
-                                <div class="card__content">
-                                    <p class="card__title">Card Title</p>
-                                    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud
-                                        exercitation
-                                        ullamco.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-
-            <!-- REDES SOCIAIS -->
-            <ul class="wrapper" style="margin-top: 5rem;">
-                <a class="redeSocial" href="#" data-placement="top">
-                    <li class="icon whatsapp">
-                        <span class="tooltip">WhatsApp</span>
-                        <i class="fa-brands fa-whatsapp" style="font-size: 1.6em"></i>
-                    </li>
-                    </li>
-                </a>
-                <a class="redeSocial" href="#" data-placement="top">
-                    <li class="icon instagram">
-                        <span class="tooltip">Instagram</span>
-                        <i class="fa-brands fa-instagram" style="font-size: 1.5em"></i>
-                    </li>
-                </a>
-                <a class="redeSocial" href="#" data-placement="top">
-                    <li class="icon facebook">
-                        <span class="tooltip">Facebook</span>
-                        <i class="fa-brands fa-facebook-f" style="font-size: 1.2em"></i>
-                    </li>
-                    </li>
-                </a>
-                <a class="redeSocial" href="#" data-placement="top">
-                    <li class="icon linkedin">
-                        <span class="tooltip">Linkedin</span>
-                        <i class="fa-brands fa-linkedin-in" style="font-size: 1.2em"></i>
-                    </li>
-                </a>
-            </ul>
-            <!-- FIM REDES SOCIAIS -->
-
-        </div><!-- /.container -->
+        </section>
 
 
         <!-- FOOTER -->
