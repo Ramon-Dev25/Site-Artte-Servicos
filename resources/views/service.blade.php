@@ -134,7 +134,7 @@
 
 
     <main>
-        <div class="container col-xxl-8 px-4 py-2" style="margin-top: 5rem">
+        <div class="container col-xxl-8 px-4 py-2" style="margin-top: 5rem; margin-bottom: 6rem;">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-lg-6">
                     <h2>Nossos Serviços</h2>
@@ -149,7 +149,87 @@
             </div>
         </div>
 
-        <section class="section-blue">
+        <!-- <section class="section-blue-service">
+            <div class="container px-4 py-5" id="custom-cards">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-center g-1 py-1">
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden  rounded-4 shadow-lg"
+                            style="background-image: url('img/limpeza.png');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h4 class="pt-4 mt-6 mb-4 display-5 lh-1 fw-bold">Auxiliar de Limpeza</h4>
+                                <span>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                                    worlds most popular front-end open source toolkit</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden  rounded-4 shadow-lg"
+                            style="background-image: url('img/limpeza.png');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h4 class="pt-4 mt-6 mb-4 display-5 lh-1 fw-bold">Auxiliar de Limpeza</h4>
+                                <span>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                                    worlds most popular front-end open source toolkit</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden  rounded-4 shadow-lg"
+                            style="background-image: url('img/limpeza.png');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h4 class="pt-4 mt-6 mb-4 display-5 lh-1 fw-bold">Auxiliar de Limpeza</h4>
+                                <span>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                                    worlds most popular front-end open source toolkit</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container px-4 py-5" id="custom-cards">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-center g-1 py-1">
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden  rounded-4 shadow-lg"
+                            style="background-image: url('img/limpeza.png');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h4 class="pt-4 mt-6 mb-4 display-5 lh-1 fw-bold">Auxiliar de Limpeza</h4>
+                                <span>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                                    worlds most popular front-end open source toolkit</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden  rounded-4 shadow-lg"
+                            style="background-image: url('img/limpeza.png');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h4 class="pt-4 mt-6 mb-4 display-5 lh-1 fw-bold">Auxiliar de Limpeza</h4>
+                                <span>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                                    worlds most popular front-end open source toolkit</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden  rounded-4 shadow-lg"
+                            style="background-image: url('img/limpeza.png');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h4 class="pt-4 mt-6 mb-4 display-5 lh-1 fw-bold">Auxiliar de Limpeza</h4>
+                                <span>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                                    worlds most popular front-end open source toolkit</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <section class="section-blue-service">
             <!-- <div class="services-container">
                 <img src="{{asset('img/limpeza.png')}}" alt="Auxiliares de limpeza" class="img-limp">
                 <h3>Auxiliar de Limpeza</h3>
@@ -161,10 +241,10 @@
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div class="col-10 col-sm-8 col-lg-6">
                         <img src="{{asset('img/limpeza.png')}}" class="d-block mx-lg-auto img-fluid"
-                            alt="auxiliares de limpeza" width="80%" height="80%" loading="lazy" id="missao-img">
+                            alt="auxiliares de limpeza" width="80%" height="80%" loading="lazy" id="service-img">
                     </div>
                     <div class="col-lg-6">
-                        <h2 style="margin-top: -20%;">Auxiliar de Limpeza</h2>
+                        <h2>Auxiliar de Limpeza</h2>
                         <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
                             worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
                             responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
@@ -172,12 +252,12 @@
                 </div>
             </div>
         </section>
-
+        
         <section>
-            <div class="container col-xxl-8 px-4 py-2">
+            <div class="container col-xxl-8 px-4 py-2"  style="margin-bottom: 6rem;">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div class="col-lg-6">
-                        <h2 style="margin-top: -20%;">Jardinagem</h2>
+                        <h2>Jardinagem</h2>
                         <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
                             worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
                             responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
@@ -190,15 +270,49 @@
             </div>
         </section>
 
-        <section class="section-blue">
+        <section class="section-blue-service">
             <div class="container col-xxl-8 px-4 py-2">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div class="col-10 col-sm-8 col-lg-6">
                         <img src="{{asset('img/logistica.png')}}" class="d-block mx-lg-auto img-fluid"
-                            alt="auxiliares de limpeza" width="80%" height="80%" loading="lazy" id="missao-img">
+                            alt="auxiliares de limpeza" width="80%" height="80%" loading="lazy" id="service-img">
                     </div>
                     <div class="col-lg-6">
-                        <h2 style="margin-top: -20%;">Auxiliar de Logística</h2>
+                        <h2>Auxiliar de Logística</h2>
+                        <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                            worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
+                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container col-xxl-8 px-4 py-2" style="margin-bottom: 6rem;">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-lg-6">
+                        <h2>Portaria</h2>
+                        <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                            worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
+                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    </div>
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="{{asset('img/portaria.png')}}" class="d-block mx-lg-auto img-fluid"
+                            alt="auxiliares de limpeza" width="80%" height="80%" loading="lazy" id="missao-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-blue-service">
+            <div class="container col-xxl-8 px-4 py-2">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="{{asset('img/controle.png')}}" class="d-block mx-lg-auto img-fluid"
+                            alt="auxiliares de limpeza" width="80%" height="80%" loading="lazy" id="service-img">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Controlador de Acesso</h2>
                         <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
                             worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
                             responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
@@ -211,47 +325,13 @@
             <div class="container col-xxl-8 px-4 py-2">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div class="col-lg-6">
-                        <h2 style="margin-top: -20%;">Portaria</h2>
+                        <h2>Recepção</h2>
                         <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
                             worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
                             responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                     </div>
                     <div class="col-10 col-sm-8 col-lg-6">
-                        <img src="{{asset('img/limpeza.png')}}" class="d-block mx-lg-auto img-fluid"
-                            alt="auxiliares de limpeza" width="80%" height="80%" loading="lazy" id="missao-img">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section-blue">
-            <div class="container col-xxl-8 px-4 py-2">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <div class="col-10 col-sm-8 col-lg-6">
-                        <img src="{{asset('img/limpeza.png')}}" class="d-block mx-lg-auto img-fluid"
-                            alt="auxiliares de limpeza" width="80%" height="80%" loading="lazy" id="missao-img">
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 style="margin-top: -20%;">Controlador de Acesso</h2>
-                        <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                            worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
-                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container col-xxl-8 px-4 py-2">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <div class="col-lg-6">
-                        <h2 style="margin-top: -20%;">Recepção</h2>
-                        <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                            worlds most popular front-end open source toolkit, featuring Sass variables and mixins,
-                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                    </div>
-                    <div class="col-10 col-sm-8 col-lg-6">
-                        <img src="{{asset('img/jardinagem.png')}}" class="d-block mx-lg-auto img-fluid"
+                        <img src="{{asset('img/recepcao.png')}}" class="d-block mx-lg-auto img-fluid"
                             alt="auxiliares de limpeza" width="80%" height="80%" loading="lazy" id="missao-img">
                     </div>
                 </div>

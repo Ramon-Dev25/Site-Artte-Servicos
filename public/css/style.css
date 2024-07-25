@@ -668,7 +668,7 @@ footer {
 }
 
 .mv-container .mv-box {
-	flex:  1 1 30rem;
+	flex: 1 1 30rem;
 	background-color: #fff;
 	padding: 2rem 2rem 2rem;
 	border-radius: 2rem;
@@ -678,12 +678,18 @@ footer {
 
 .mv-container .mv-box img {
 	max-width: 100%;
-    max-height: 100%;
-	
+	max-height: 100%;
+
 }
 
-#missao-img, #visao-img {
+#missao-img,
+#visao-img {
 	border-radius: 0 2rem 0 2rem;
+}
+
+#service-img {
+	border-radius: 0 2rem 0 2rem;
+	margin-top: -30%;
 }
 
 .section-blue {
@@ -696,6 +702,13 @@ footer {
 
 .section-value {
 	padding: 5%;
+	background-image: linear-gradient(to top, #0f048c, #0d6efd);
+	color: #ffffff;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.section-blue-service {
 	background-image: linear-gradient(to top, #0f048c, #0d6efd);
 	color: #ffffff;
 	margin-top: 1rem;
@@ -722,10 +735,21 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 	gap: 2rem;
 }
 
 .services-container .services-box {
 	flex: 1
+}
+
+.img-service-new {
+	width: 20%;
+	height: 20%;
+
+}
+
+.img-emphasis-blog {
+	position: absolute;
+	width: 100%;
 }
