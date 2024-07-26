@@ -712,7 +712,16 @@ footer {
 	background-image: linear-gradient(to top, #0f048c, #0d6efd);
 	color: #ffffff;
 	margin-top: 1rem;
-	margin-bottom: 1rem;
+	margin-bottom: 1rem; 
+	opacity: 0; /* Inicialmente invisível */
+	transform: translateX(-100%); /* Inicialmente fora da tela */
+	transition: opacity 0.5s, transform 1.5s;
+}
+
+.section-blue-service.animate {
+	animation: movimento 1s linear 1s forwards; /* Adiciona a animação */
+	opacity: 1; /* Torna visível */
+	transform: translateX(0); /* Move para a posição final */
 }
 
 .img-service {
@@ -750,6 +759,8 @@ footer {
 }
 
 .img-emphasis-blog {
+	background-color: #098131;
 	position: absolute;
+	height: 100%;
 	width: 100%;
 }

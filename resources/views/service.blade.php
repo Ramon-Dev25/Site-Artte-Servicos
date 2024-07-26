@@ -252,9 +252,9 @@
                 </div>
             </div>
         </section>
-        
+
         <section>
-            <div class="container col-xxl-8 px-4 py-2"  style="margin-bottom: 6rem;">
+            <div class="container col-xxl-8 px-4 py-2" style="margin-bottom: 6rem;">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div class="col-lg-6">
                         <h2>Jardinagem</h2>
@@ -362,6 +362,23 @@
     </main>
     <!-- <link rel="stylesheet" href="> -->
     <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const elements = document.querySelectorAll('.section-blue-service');
+
+            function checkVisibility() {
+                elements.forEach(element => {
+                    const rect = element.getBoundingClientRect();
+                    if (rect.top < window.innerHeight && rect.bottom >= 0) {
+                        element.classList.add('animate');
+                    }
+                });
+            }
+
+            window.addEventListener('scroll', checkVisibility);
+            checkVisibility(); // Verifica a visibilidade ao carregar a página
+        });
+    </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const navbar = document.querySelector('.navbar');

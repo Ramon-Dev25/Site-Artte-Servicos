@@ -145,7 +145,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="img-emphasis-blog">
-                        <img src="{{asset('img/portaria.png')}}" alt="Notícia em Destaque">
+                       
                     </div>
                 </div>
             </div>
